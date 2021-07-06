@@ -2,9 +2,10 @@ body{
     font-family: 'Rubik', sans-serif;
     margin: 0;
 }
-h1{
-    font-size: 65px;
-    font-weight: 700;
+h1 {
+	font-size: 65px;
+	font-weight: 700;
+	color: black;
 }
 h2{
     font-size: 50px;
@@ -56,8 +57,8 @@ p {
 	width: 67%;
 }
 .about-content {
-	width: 62%;
-	padding: 0px 7%;
+	width: 75%;
+	padding: 0px 6%;
 }
 .about-content p {
 	color: gray;
@@ -84,7 +85,6 @@ p {
     display: flex;
     margin: 0 5%;
 }
-
 .recipies-wrap{
     padding: 0 2%;
     height: 600px;
@@ -95,10 +95,10 @@ p {
 	padding: 10px 20px;
 	border-radius: 20px;
 }
-
-
-
 /*counter*/
+.counter-area {
+	margin-bottom: 46px;
+}
 .counter-wrap{
     display: flex;
     box-shadow: 5px 7px 40px gray;
@@ -110,11 +110,52 @@ p {
     padding: 0 10%;    
 }
 
+/*contact*/
 
+#Contact {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-color: rgba(255, 150, 100, 0.9);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input {
+	padding: 12px;
+	margin: 15px;
+	width: 30%;
+	border: none;
+	outline: none;
+}
+#msg {
+	width: 40%;
+	padding: 20px;
+	margin: 15px;
+	border: none;
+	outline: none;
+}
+#send {
+	padding: 20px 68px;
+	background-color: orange;
+	border-radius: 80px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+/*footer*/
 .footer-area h2{
     font-size: 40px;
 }
-
 .footer-area {
 	background-color: black;
 	padding-top: 30px;
@@ -122,7 +163,6 @@ p {
 	margin-top: 80px;
 	text-align: center;
 }
-
 .footer-area p{
     color: white;
 }
